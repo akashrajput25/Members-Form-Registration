@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWC Registration form</title>
+</head>
+
+<body>
+    <form action="form.php" method="POST">
+        <h1>Registration Form</h1>
+        <table class="form-box">
+            <tr>
+                <td>Name :</td>
+                <td><input type="text" class="size" name="username" required></td>
+            </tr>
+            <tr>
+                <td>Registration Number</td>
+                <td><input type="text" class="size" name="regnumber" required></td>
+            </tr>
+            <tr>
+                <td>Year:</td>
+                <td>
+                    <input type="radio" class="check" name="year" value="1" required>1st Year
+                    <input type="radio" class="check" name="year" value="2" required>2nd Year
+                    <input type="radio" class="check" name="year" value="3" required>3rd Year
+                </td>
+            </tr>
+            <tr>
+                <td>Branch :</td>
+                <td><input type="text" class="size" name="branch" required></td>
+            </tr>
+            <tr>
+                <td>Telegram Username :</td>
+                <td><input type="text" class="size" name="tuser" required></td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="email" class="size" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Phone no:</td>
+                <td>
+                    <input type="phone" class="size" name="phone" required>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" class="submitbtn" value="Submit" name="submit">
+                </td>
+            </tr>
+        </table>
+        </div>
+    </form>
+</body>
+
+</html>
