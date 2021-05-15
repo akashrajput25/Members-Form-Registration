@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&display=swap');
+body
+{
+    font-family: 'Audiowide', cursive;
+    background: linear-gradient(45deg,black,gray,red);
+    font-size: 32px;
+    color: beige;
+}
+table{
+    margin: auto;
+    line-height: 150%;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+}
+
+hr
+{
+    color: black;
+    height: 8px;
+    width: 80%;
+    background: #b60909;
+}
+
+.h_img{
+    display:block;
+    text-align: center;
+}
+
+.h_img #left {
+    padding: 2px 8px;
+}
+
+.h_img #right {
+    padding: 2px 8px;
+}
+
+.form-box .inp{
+    width: 100%;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 3px #b60909;
+}
+
+.rd{
+    font-size: 25px;
+}
+
+.submitbtn {
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: #ffffff;
+    padding: 16px 32px;
+    margin-top: 30px;
+    border: 2px solid #2b2222;
+    border-radius: 15px;
+    background: radial-gradient(#747272,#2e3533);
+    transition: transform 0.5s;
+}
+
+.submitbtn:hover{
+    transform: scale(1.1);
+    color: aqua;
+    font-size: 16px;
+}    
+
+footer{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 0px;
+    font-size: 10px;
+}
+
+footer section{
+    color: #b60909;
+}
+
+
+@media only screen and (max-width: 1080px) {
+    body{
+        font-size: 25px;
+    }
+
+    .rd{
+        font-size: 20px;
+    }
+
+    .form-box .inp{
+        width: 80%;
+    }
+
+    .submitbtn {
+        padding: 15px 30px;
+    
+    }
+}

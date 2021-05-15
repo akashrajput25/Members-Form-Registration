@@ -6,23 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CWC Registration form</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <form action="form.php" method="POST">
+        <section class="h_img">
+            <img src="./img/soa_logo.png" id="left" width="100px">
+            <img src="./img/cwc_logo.png" id="right" height="100px">
+        </section>
         <h1>Registration Form</h1>
         <table class="form-box">
             <tr>
                 <td>Name :</td>
-                <td><input type="text" class="size" name="username" required></td>
+                <td><input type="text" class="size inp" name="username" required></td>
             </tr>
             <tr>
-                <td>Registration Number</td>
-                <td><input type="text" class="size" name="regnumber" required></td>
+                <td>Registration Number :</td>
+                <hr>
+                <td><input type="text" class="size inp" name="regnumber" required></td>
             </tr>
             <tr>
-                <td>Year:</td>
-                <td>
+                <td>Year :</td>
+                <td class="rd">
                     <input type="radio" class="check" name="year" value="1" required>1st Year
                     <input type="radio" class="check" name="year" value="2" required>2nd Year
                     <input type="radio" class="check" name="year" value="3" required>3rd Year
@@ -30,28 +36,30 @@
             </tr>
             <tr>
                 <td>Branch :</td>
-                <td><input type="text" class="size" name="branch" required></td>
+                <td><input type="text" class="size inp" name="branch" required></td>
             </tr>
             <tr>
                 <td>Telegram Username :</td>
-                <td><input type="text" class="size" name="tuser" required></td>
+                <td><input type="text" class="size inp" name="tuser" required></td>
             </tr>
             <tr>
                 <td>Email :</td>
-                <td><input type="email" class="size" name="email" required></td>
+                <td><input type="email" class="size inp" name="email" required></td>
             </tr>
             <tr>
-                <td>Phone no:</td>
+                <td>Phone no :</td>
                 <td>
-                    <input type="phone" class="size" name="phone" required>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="submit" class="submitbtn" value="Submit" name="submit">
+                    <input type="phone" class="size inp" name="phone" required>
                 </td>
             </tr>
         </table>
+        <div>
+            <input type="submit" class="submitbtn" value="Submit" name="submit">
         </div>
+        </div>
+        <footer>
+            <h2>Made with love <section>&#10084;</section> CWC</h2>
+        </footer>
     </form>
 </body>
 
